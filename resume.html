@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Designer Resume</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    .sidebar {
+      width: 30%;
+      background: #00acc1;
+      color: white;
+      padding: 30px;
+    }
+
+    .sidebar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .sidebar h2 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .sidebar p {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .sidebar section {
+      margin-top: 30px;
+    }
+
+    .sidebar h3 {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 10px;
+    }
+
+    .main {
+      width: 70%;
+      padding: 40px;
+      background: white;
+    }
+
+    .main section {
+      margin-bottom: 40px;
+    }
+
+    .main h3 {
+      color: #00acc1;
+      margin-bottom: 10px;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job h4 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .job span {
+      float: right;
+      color: #666;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .skills .bar {
+      background: #eee;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .skills .bar-fill {
+      background: #00acc1;
+      padding: 5px;
+      color: white;
+      width: 80%;
+    }
+
+    .language .bar-fill {
+      width: 90%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar">
+    <img src="abhay.jpeg" alt="Profile">
+    <h2>Abhay Kumar Pandit</h2>
+    <p>BBA Student</p>
+
+    <section>
+      <h3>Contact</h3>
+      <ul>
+        <li>Phone: 7461959630</li>
+        <li type="Email">Email: abhay@gmail.com</li>
+        <li>Address: patel nagar ,new-delhi</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <ul>
+        <li>2019 - 2020<br>Passed 10th with<br>72% Marks</li>
+        <li>2020 - 2022<br>Passed 12th with<br>72% Marks</li>
+      </ul>
+    </section>
+
+    <section class="language">
+      <h3>Language</h3>
+      <ul>
+        <li>English<div class="bar">
+            <div class="bar-fill"></div>
+          </div>
+        </li>
+        <li>Hindi<div class="bar">
+            <div class="bar-fill"></div>
+          </div>
+        </li>
+        <li>Bhojpuri<div class="bar">
+            <div class="bar-fill"></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="main">
+    <section>
+      <h3>Profile Info</h3>
+      <p>This is my resume, about what have i done in my life, what i want to achieve in my life?</p>
+    </section>
+    <hr style="height: 1px; margin-bottom: 20px;">
+
+    <section>
+      <h3>Objective</h3>
+      <div class="job">
+        <p>Enthusiastic and detail-oriented BBA student passionate about marketing, web development, and data
+          tools.<br>Known for strong observation skills and crative thinking.<br>Seeking opportunities to apply my skills in dynamic environments and grow professionally.</p>
+      </div>
+    
+    </section>
+
+    <section style="margin-top: 15px;">
+      <h3>My Skills & Expertise</h3>
+      <div class="skills">
+        <div>
+          Html
+          <div class="bar">
+            <div class="bar-fill" style="width: 100%"></div>
+          </div>
+        </div>
+        <div>
+          CSS
+          <div class="bar">
+            <div class="bar-fill" style="width: 100%"></div>
+          </div>
+        </div>
+        <div>
+          Javascript
+          <div class="bar">
+            <div class="bar-fill" style="width: 85%"></div>
+          </div>
+        </div>
+        <div>
+          Photography
+          <div class="bar">
+            <div class="bar-fill" style="width: 75%"></div>
+          </div>
+        </div>
+        <div>
+          communication
+          <div class="bar">
+            <div class="bar-fill" style="width: 70%"></div>
+          </div>
+        </div>
+        <div>
+          SEO & Marketing
+          <div class="bar">
+            <div class="bar-fill" style="width: 60%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="height: 1px; margin-bottom: 15px; ">
+
+    <section>
+      <h3>My Reference</h3>
+      <p>Vishwash singh<br>Suvaidyam emp<br>123-456-7890</p>
+      <hr style="width: 150px;">
+      <p>Surendar Pandit<br>business consultant<br>123-456-7890</p>
+    </section>
+  </div>
+</body>
+
+</html>
